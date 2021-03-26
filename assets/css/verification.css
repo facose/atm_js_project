@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+form {
+    float: right;
+    width: 50%;
+    margin: 3rem 25%;
+}
+
+input {
+    border-radius: 60px!important;
+}
+
+.form-control {
+    border-radius: 40px;
+}
+
+.invalid {
+    width: 50%;
+    height: 2rem;
+    margin: 0 17.5%;
+    text-align: center;
+    color: red;
+}
+
+.navbar {
+    background-color: #C20000;
+    z-index: 3;
+}
+
+i {
+    color: white;
+    font-size: 3rem;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    padding: 10px 50px;
+    border-radius: 60px;
+    border: none;
+    color: white;
+    background-color: #C20000;
+}
+
+.left-aside {
+    width: 10%;
+    float: left;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #C20000;
+    z-index: 1;
+}
+
+.right-aside {
+    width: 10%;
+    float: right;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #C20000;
+    z-index: 1;
+}
+
+.logo-text {
+    color: white;
+    margin-left: 5%;
+}
+
+.logo {
+    align-items: center;
+    margin-left: 10%;
+}
+
+footer {
+    background-color: #C20000;
+    height: 4rem;
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
