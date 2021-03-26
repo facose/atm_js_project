@@ -54,6 +54,7 @@ label {
     border: none;
     color: white;
     background-color: #C20000;
+    margin: 0 1rem;
 }
 
 .left-aside {
@@ -99,4 +100,10 @@ footer {
     width: 100%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.home {
+    width: 60%;
+    margin: 35vh 20%;
+    text-align: center;
 }

@@ -46,7 +46,9 @@ const authenticate = () => {
     const pass = document.getElementById("password").value.toLowerCase();
 
     if (user === account1.username && pass === account1.password ) {
+        let account = account1;
 
+        home();
 
     } else if (user === account2.username && pass === account2.password) {
 
@@ -60,4 +62,33 @@ const authenticate = () => {
 }
 
 
+const home = () => {
+
+    const body = document.body;
+
+    form = body.childNodes[5];
+    form.remove();
+
+    const div = document.createElement("DIV");
+    div.classList.add("home");
+    
+    const btn1 = document.createElement("BUTTON");
+    btn1.innerHTML = "Consulta";
+    btn1.classList.add("button");
+
+    
+    const btn2 = document.createElement("BUTTON");
+    btn2.innerHTML = "Retiro";
+    btn2.classList.add("button");
+    
+    const btn3 = document.createElement("BUTTON");
+    btn3.innerHTML = "Deposito";
+    btn3.classList.add("button");
+
+    div.append(btn1, btn2, btn3)
+
+    body.insertBefore(div, body.childNodes[4]);
+
+    
+}
 
