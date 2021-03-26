@@ -10,9 +10,8 @@ body {
 }
 
 form {
-    float: right;
     width: 50%;
-    margin: 3rem 25%;
+    margin: 6rem 25%;
 }
 
 input {
