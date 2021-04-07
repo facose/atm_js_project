@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <!-- Local CSS -->
     <link rel="stylesheet" href="./assets/css/verification.css">
     
@@ -28,19 +27,12 @@
     <div class="left-aside">
         
     </div>
-    <form>
-        <div class="mb-3">
-            <label for="username" class="form-label">Nombre de Usuario:</label><br>
-            <input type="text" placeholder="nombre de usuario" class="form-control py-3" id="username" name="username"><br>
-        </div>
-        <div class="mb-3">
-            <label for="password" class="form-label">Password:</label><br>
-            <input type="password" placeholder="password" class="form-control py-3" id="password" name="password"><br>
-        </div>
-        <div class="container text-center">
-            <button type="button" onclick="authenticate()" class="button">Enviar</button>
-        </div>
-    </form>
+
+    <div class="home">
+        <button class="button" id="balance" onclick="balance()">Consulta</button>
+        <button class="button" id="withdraw" onclick="withdraw()">Retiro</button>
+        <button class="button" id="deposit" onclick="deposit()">Deposito</button>
+    </div>
 
     <div class="right-aside">
         

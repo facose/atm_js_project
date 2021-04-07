@@ -55,6 +55,12 @@ label {
     color: white;
     background-color: #C20000;
     margin: 0 1rem;
+    width: 25%;
+}
+
+.button:hover {
+    background-color: #b06969;
+    font-size: 1.3rem;
 }
 
 .left-aside {
